@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 639px;
+  position: relative;
+}
+.eclipse {
+  width: 53px;
+  height: 53px;
+  background: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  border-radius: 50%;
+}
+.logo span {
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 28px;
+  left: 30px;
+  font-family: Inter;
+  font-weight: Semi Bold;
+  font-size: 26px;
+}
+.logo{
+    cursor: pointer;
+}
+.live-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 21px;
+  left: 434px;
+}
+.live {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 48px;
+  left: 430px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 15px;
+}
+.member-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  left: 591px;
+}
+.membership {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 48px;
+  left: 548px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 15px;
+}
+.plans-icon {
+  width: 29px;
+  height: 29px;
+  position: absolute;
+  top: 18px;
+  left: 754px;
+}
+.plans {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 51px;
+  left: 742px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 15px;
+}
+.more-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 20px;
+  left: 887px;
+}
+.more {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 48px;
+  left: 878px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 15px;
+}
+.login-icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 36px;
+  left: 90%;
+  overflow: hidden;
+}
+.login {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 35px;
+  left: 91.5%;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 15px;
+}
+.navbar {
+  width: 100%;
+  height: 87px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.navbar img{
+    cursor: pointer;
+}
+.navbar span{
+    cursor: pointer;
+}
+.runner {
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 146px;
+  left: 64px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-weight: Regular;
+  font-size: 40px;
+}
+.gallery {
+  width: 87%;
+  height: 397px;
+  background: rgba(196, 196, 196, 1);
+  border-radius: 15px;
+  position: absolute;
+  top: 224px;
+  left: 62px;
+  overflow: hidden;
+  display: flex;
+  cursor: pointer;
+}
+.col {
+  height: 100%;
+  flex: 1;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 25px;
+  transition: 0.3s;
+  background-size: cover;
+}
+.col:nth-child(1) {
+  background-image: url(./image/strength.jpg);
+}
+.col:nth-child(2) {
+  background-image: url(./image/mobility.jpg);
+}
+.col:nth-child(3) {
+  background-image: url(./image/drills-2.jpg);
+  background-repeat: no-repeat;
+}
+.col img {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 92%;
+}
+.col span {
+  font-size: 18px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+.col:hover {
+  flex-grow: 2.5;
+}
